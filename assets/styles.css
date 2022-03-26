@@ -1,0 +1,200 @@
+/* * {
+  margin: 0;
+  padding: 0;
+  box-sizing: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+
+.container {
+  display: flex;
+}
+
+.nav {
+  width: 25vw;
+  align-items: center;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  background-color: rgb(5, 107, 107);
+}
+
+.content {
+  width: 65vw;
+  padding: 1rem 5rem;
+}
+
+.start {
+  margin-top: 2rem;
+  margin-bottom: 5rem;
+  text-align: center;
+  font-size: larger;
+  color: rgb(166, 243, 248);
+}
+
+.input-place p {
+  color: antiquewhite;
+  font-size: larger;
+}
+.form {
+  display: flex;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  height: 1.5rem;
+}
+.form button {
+  width: 5rem;
+  background-color: yellow;
+  color: black;
+  border: none;
+}
+.buttons {
+  margin: 2rem;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+  justify-content: space-around;
+}
+#forecast {
+  margin-top: 2rem;
+  height: 2.2rem;
+}
+#n_days {
+  height: 2rem;
+  margin-top: 2rem;
+}
+.buttons button {
+  width: 7.5rem;
+  height: 2.5rem;
+  border: none;
+  background-color: rgb(166, 255, 0);
+  color: rgb(0, 0, 0);
+}
+
+.header {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+.header p {
+  font-size: 4rem;
+  margin-left: 3rem;
+  line-height: 80%;
+}
+
+#logo {
+  max-width: 15rem;
+  height: auto;
+} */
+
+.DateInput,
+.DateInput_1 {
+  background-color: black;
+}
+
+/* #startDate{
+padding-right: 1rem;
+}
+
+#EndDate{
+  padding-right: 1rem;
+    padding-left: 3rem;
+} */
+
+.body {
+  /* background-color: black; */
+  min-height: 100vh;
+  background-image: url('./bg2.jpeg');
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.DayPicker.DayPicker_1.DayPicker__horizontal.DayPicker__horizontal_2.DayPicker__withBorder.DayPicker__withBorder_3 {
+  width: 360px !important;
+}
+
+.DayPicker_transitionContainer.DayPicker_transitionContainer_1.DayPicker_transitionContainer__horizontal.DayPicker_transitionContainer__horizontal_2 {
+  width: 360px !important;
+  height: 355px !important;
+}
+.BTNstyle {
+  margin-left: 30px;
+}
+
+.filteBTN {
+  font-size: 12px;
+  margin-left: 8px;
+}
+
+.jumbotron {
+  background-image: url('./jb.png');
+  color: antiquewhite;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  /* background: #242134; 
+ 
+  background: -webkit-linear-gradient(to right, #9E9AB4, #242134);
+ 
+  background: linear-gradient(to right, #9E9AB4, #242134); */
+}
+
+.contentStyle {
+  background-color: rgba(100, 100, 100, 0.5);
+  padding: 3rem;
+  color: oldlace;
+  font-size: large;
+}
+
+/* 
+.tab.jsx-2137964197{
+  background: #242134; 
+ 
+  background: -webkit-linear-gradient(to right, #9E9AB4, #242134);
+ 
+  background: linear-gradient(to right, #9E9AB4, #242134);
+  color:#0d0d0d;
+  font-weight: bold;
+ 
+} */
+/* 
+.main-tab-family > .tab--selected.jsx-2137964197{
+  background-color: red;
+  color:white;
+} */
+/* 
+.tab--selected.jsx-2137964197, .tab.jsx-2137964197:last-of-type.tab--selected {
+  color: wheat;
+} */
+
+.rc-slider-track {
+  background-color: red;
+}
+
+#n_days {
+  width: 20%;
+}
+
+#logo {
+  vertical-align: middle;
+  max-width: 128px;
+  max-height: 128px;
+}
+
+.rc-slider-tooltip-inner {
+  padding: 6px 2px;
+  min-width: 35px;
+  min-height: 30px;
+  line-height: 1;
+  font-size: larger;
+  color: #fff;
+  text-align: center;
+  text-decoration: none;
+  background-color: #6c6c6c;
+  border-radius: 6px;
+  box-shadow: 0 0 4px #d9d9d9;
+}
